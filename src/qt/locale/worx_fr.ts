@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Quitter l’application</translation>
     </message>
     <message>
-        <source>&amp;About Worx Core</source>
+        <source>&amp;About Charity Core</source>
         <translation>À propos du noyau WORX</translation>
     </message>
     <message>
-        <source>Show information about Worx Core</source>
-        <translation>Affichez des informations à propos de  Worx Core</translation>
+        <source>Show information about Charity Core</source>
+        <translation>Affichez des informations à propos de  Charity Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Worx Core client</source>
-        <translation>Client Worx Core </translation>
+        <source>Charity Core client</source>
+        <translation>Client Charity Core </translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronisation des données additionnelles: %p%</translation>
     </message>
     <message>
-        <source>Show the Worx Core help message to get a list with possible WORX command-line options</source>
-        <translation>Afficher le message d'aide de Worx Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the Charity Core help message to get a list with possible WORX command-line options</source>
+        <translation>Afficher le message d'aide de Charity Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Adresse : %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adresse : %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Worx Core</source>
-        <translation>A propos de Worx Core</translation>
+        <source>About Charity Core</source>
+        <translation>A propos de Charity Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adresse : %4
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to Worx Core.</source>
-        <translation>Bienvenue à Worx Core</translation>
+        <source>Welcome to Charity Core.</source>
+        <translation>Bienvenue à Charity Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Worx Core will store its data.</source>
-        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Worx Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Charity Core will store its data.</source>
+        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Charity Core sauvegardera ses données.</translation>
     </message>
     <message>
-        <source>Worx Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Worx Core téléchargera et sauvegardera une copie de la chaîne de blocs WORX. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>Charity Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Charity Core téléchargera et sauvegardera une copie de la chaîne de blocs WORX. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adresse : %4
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Worx Core is shutting down...</source>
-        <translation>Arrêt de Worx Core...</translation>
+        <source>Charity Core is shutting down...</source>
+        <translation>Arrêt de Charity Core...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Worx Core developers</source>
-        <translation>Les développeurs Worx Core</translation>
+        <source>The Charity Core developers</source>
+        <translation>Les développeurs Charity Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Worx Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Worx Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. Charity Core is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Charity Core fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Ceci est une pré-version de test - l'utiliser à vos risques et périls - ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Worx Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Worx Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. Charity Core is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Charity Core fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3746,8 +3746,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte WORX" admin@foo.com
         <translation>Attention : -maxtxfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Worx Core will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Worx Core ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Charity Core will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Charity Core ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3800,8 +3800,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte WORX" admin@foo.com
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Worx Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Worx Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Charity Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Charity Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3832,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte WORX" admin@foo.com
         <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Worx Core</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Worx Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Charity Core</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Charity Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3904,8 +3904,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte WORX" admin@foo.com
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Worx Core is shutting down.</source>
-        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Worx Core est en cours de fermeture.</translation>
+        <source>Initialization sanity check failed. Charity Core is shutting down.</source>
+        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Charity Core est en cours de fermeture.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4156,8 +4156,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte WORX" admin@foo.com
         <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Worx Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Worx Core pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart Charity Core to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer Charity Core pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/charity_bg.qm</file>
+        <file alias="de">locale/charity_de.qm</file>
+        <file alias="en">locale/charity_en.qm</file>
+        <file alias="es">locale/charity_es.qm</file>
+        <file alias="fi">locale/charity_fi.qm</file>
+        <file alias="fr">locale/charity_fr.qm</file>
+        <file alias="it">locale/charity_it.qm</file>
+        <file alias="ja">locale/charity_ja.qm</file>
+        <file alias="pl">locale/charity_pl.qm</file>
+        <file alias="pt">locale/charity_pt.qm</file>
+        <file alias="ru">locale/charity_ru.qm</file>
+        <file alias="sk">locale/charity_sk.qm</file>
+        <file alias="sv">locale/charity_sv.qm</file>
+        <file alias="vi">locale/charity_vi.qm</file>
+        <file alias="zh_CN">locale/charity_zh_CN.qm</file>
+        <file alias="zh_TW">locale/charity_zh_TW.qm</file>
+    </qresource>
+</RCC>

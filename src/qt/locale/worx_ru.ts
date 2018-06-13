@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>&amp;About Worx Core</source>
-        <translation>О &amp;Worx Core</translation>
+        <source>&amp;About Charity Core</source>
+        <translation>О &amp;Charity Core</translation>
     </message>
     <message>
-        <source>Show information about Worx Core</source>
-        <translation>Показать информацию о Worx Core</translation>
+        <source>Show information about Charity Core</source>
+        <translation>Показать информацию о Charity Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Worx Core client</source>
-        <translation>Клиент Worx Core</translation>
+        <source>Charity Core client</source>
+        <translation>Клиент Charity Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизация дополнительных данных: %p%</translation>
     </message>
     <message>
-        <source>Show the Worx Core help message to get a list with possible WORX command-line options</source>
-        <translation>Показать помощь о Worx Core со списком возможных параметров командной строки</translation>
+        <source>Show the Charity Core help message to get a list with possible WORX command-line options</source>
+        <translation>Показать помощь о Charity Core со списком возможных параметров командной строки</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Address: %4
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Worx Core</source>
-        <translation>О Worx Core</translation>
+        <source>About Charity Core</source>
+        <translation>О Charity Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Worx Core.</source>
-        <translation>Добро пожаловать в Worx Core.</translation>
+        <source>Welcome to Charity Core.</source>
+        <translation>Добро пожаловать в Charity Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Worx Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Worx Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where Charity Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Charity Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>Worx Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Worx Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
+        <source>Charity Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Charity Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Worx Core is shutting down...</source>
-        <translation>Worx Core выключается...</translation>
+        <source>Charity Core is shutting down...</source>
+        <translation>Charity Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Worx Core developers</source>
-        <translation>Разработчики Worx Core</translation>
+        <source>The Charity Core developers</source>
+        <translation>Разработчики Charity Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Worx Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Worx Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. Charity Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Charity Core уже запущен.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Worx Core is probably already running.</source>
-        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Worx Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. Charity Core is probably already running.</source>
+        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Charity Core уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3746,8 +3746,8 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee! Комиссия такого размера может быть уплачена при проведении одельной транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Worx Core will not work properly.</source>
-        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! Worx Core не сможет работать корректно, если часы настроены неверно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Charity Core will not work properly.</source>
+        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! Charity Core не сможет работать корректно, если часы настроены неверно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3800,8 +3800,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Worx Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Worx Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Charity Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Charity Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3832,8 @@ rpcpassword=%s
         <translation>Ошибка соединения с мастернодой.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Worx Core</source>
-        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии Worx Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Charity Core</source>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии Charity Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3904,8 +3904,8 @@ rpcpassword=%s
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Worx Core is shutting down.</source>
-        <translation>Проверка на непротиворечивость закончилась неудачно. Worx Core выключается.</translation>
+        <source>Initialization sanity check failed. Charity Core is shutting down.</source>
+        <translation>Проверка на непротиворечивость закончилась неудачно. Charity Core выключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4156,8 +4156,8 @@ rpcpassword=%s
         <translation>Использовать UPnP для проброса порта (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Worx Core to complete</source>
-        <translation>Необходимо перезаписать кошелёк: перезапустите Worx Core для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart Charity Core to complete</source>
+        <translation>Необходимо перезаписать кошелёк: перезапустите Charity Core для завершения операции</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

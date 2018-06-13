@@ -16,7 +16,7 @@ BITCOIND_USER=${BITCOIND_USER:-worx}
 BITCOIND_GROUP=${BITCOIND_GROUP:-worx}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/worxd}
 
-name="Worx Core Daemon"
+name="Charity Core Daemon"
 description="WORX crypto-currency p2p network daemon"
 
 command="/usr/bin/worxd"

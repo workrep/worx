@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Worx Core</source>
-        <translation>&amp;O Worx Core</translation>
+        <source>&amp;About Charity Core</source>
+        <translation>&amp;O Charity Core</translation>
     </message>
     <message>
-        <source>Show information about Worx Core</source>
-        <translation>Zobraziť informácie o Worx Core</translation>
+        <source>Show information about Charity Core</source>
+        <translation>Zobraziť informácie o Charity Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Worx Core client</source>
-        <translation>Worx Core klient</translation>
+        <source>Charity Core client</source>
+        <translation>Charity Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the Worx Core help message to get a list with possible WORX command-line options</source>
-        <translation>Zobraziť Worx Core nápovedu k získaniu zoznamu možností príkazového riadku WORX.</translation>
+        <source>Show the Charity Core help message to get a list with possible WORX command-line options</source>
+        <translation>Zobraziť Charity Core nápovedu k získaniu zoznamu možností príkazového riadku WORX.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Worx Core</source>
-        <translation>O Worx Core</translation>
+        <source>About Charity Core</source>
+        <translation>O Charity Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Worx Core.</source>
-        <translation>Vitajte v Worx Core.</translation>
+        <source>Welcome to Charity Core.</source>
+        <translation>Vitajte v Charity Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Worx Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Worx Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Charity Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Charity Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Worx Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Worx Core stiahne a uloží kópiu reťazca blokov WORX. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>Charity Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Charity Core stiahne a uloží kópiu reťazca blokov WORX. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2585,7 +2585,7 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Worx Core is shutting down...</source>
+        <source>Charity Core is shutting down...</source>
         <translation>WORX core sa vypína...</translation>
     </message>
     <message>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2747,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The Worx Core developers</source>
-        <translation>Vývojári Worx Core</translation>
+        <source>The Charity Core developers</source>
+        <translation>Vývojári Charity Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3325,8 +3325,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Worx Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Worx Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Charity Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. Charity Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,8 +3381,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Worx Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Worx Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. Charity Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. Charity Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3745,8 +3745,8 @@ napríklad: alertnotify=echo %%s | mail -s "WORX Upozornenie" admin@foo.com
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Worx Core will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Worx Core nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Charity Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Charity Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,7 +3799,7 @@ napríklad: alertnotify=echo %%s | mail -s "WORX Upozornenie" admin@foo.com
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Worx Core Developers</source>
+        <source>Copyright (C) 2014-%i The Charity Core Developers</source>
         <translation>Autorské práva (C) 2014-%i Vývojári jadra WORX</translation>
     </message>
     <message>
@@ -3831,8 +3831,8 @@ napríklad: alertnotify=echo %%s | mail -s "WORX Upozornenie" admin@foo.com
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Worx Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Worx Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Charity Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Charity Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ napríklad: alertnotify=echo %%s | mail -s "WORX Upozornenie" admin@foo.com
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Worx Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Worx Core sa vypína.</translation>
+        <source>Initialization sanity check failed. Charity Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. Charity Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ napríklad: alertnotify=echo %%s | mail -s "WORX Upozornenie" admin@foo.com
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Worx Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Worx Core</translation>
+        <source>Wallet needed to be rewritten: restart Charity Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Charity Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

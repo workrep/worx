@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both worxd and worx-qt, to make it harder for attackers to
+ * for both charityd and charity-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Worx Core");
+const std::string CLIENT_NAME("Charity Core");
 
 /**
  * Client version number

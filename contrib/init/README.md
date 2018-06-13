@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: worxd.service
-Upstart: worxd.conf
-OpenRC:  worxd.openrc
-         worxd.openrcconf
-CentOS:  worxd.init
+SystemD: charityd.service
+Upstart: charityd.conf
+OpenRC:  charityd.openrc
+         charityd.openrcconf
+CentOS:  charityd.init
 
 have been made available to assist packagers in creating node packages here.
 

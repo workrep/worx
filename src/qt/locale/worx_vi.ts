@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About Worx Core</source>
-        <translation>&amp;Về Worx Core</translation>
+        <source>&amp;About Charity Core</source>
+        <translation>&amp;Về Charity Core</translation>
     </message>
     <message>
-        <source>Show information about Worx Core</source>
-        <translation>Hiển thị thông tin về Worx Core</translation>
+        <source>Show information about Charity Core</source>
+        <translation>Hiển thị thông tin về Charity Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>Worx Core client</source>
-        <translation>Phần mềm Worx Core</translation>
+        <source>Charity Core client</source>
+        <translation>Phần mềm Charity Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the Worx Core help message to get a list with possible WORX command-line options</source>
-        <translation>Hiển thị hướng dẫn của Worx Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của WORX.</translation>
+        <source>Show the Charity Core help message to get a list with possible WORX command-line options</source>
+        <translation>Hiển thị hướng dẫn của Charity Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của WORX.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Worx Core</source>
-        <translation>Về Worx Core</translation>
+        <source>About Charity Core</source>
+        <translation>Về Charity Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to Worx Core.</source>
-        <translation>Chào mừng đến với Worx Core.</translation>
+        <source>Welcome to Charity Core.</source>
+        <translation>Chào mừng đến với Charity Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Worx Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Worx Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Charity Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Charity Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>Worx Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Worx Core sẽ tải và lưu một bản của sổ cái WORX. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Charity Core will download and store a copy of the WORX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Charity Core sẽ tải và lưu một bản của sổ cái WORX. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Worx Core is shutting down...</source>
-        <translation>Worx Core đang được tắt...</translation>
+        <source>Charity Core is shutting down...</source>
+        <translation>Charity Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Worx Core</source>
-        <translation>Worx Core</translation>
+        <source>Charity Core</source>
+        <translation>Charity Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Worx Core developers</source>
-        <translation>Nhóm phát triển Worx Core</translation>
+        <source>The Charity Core developers</source>
+        <translation>Nhóm phát triển Charity Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Worx Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Worx Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Charity Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Charity Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/worx-crypto/worx-wallet-translations/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Worx Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Worx Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Charity Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Charity Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3746,8 +3746,8 @@ ví dụ: alertnotify=echo %%s | mail -s "WORX Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Worx Core will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Worx Core sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Charity Core will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Charity Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ ví dụ: alertnotify=echo %%s | mail -s "WORX Alert" admin@foo.com
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Worx Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Worx Core</translation>
+        <source>Copyright (C) 2014-%i The Charity Core Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Charity Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ ví dụ: alertnotify=echo %%s | mail -s "WORX Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Worx Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Worx Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Charity Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Charity Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ ví dụ: alertnotify=echo %%s | mail -s "WORX Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Worx Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Worx Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Charity Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Charity Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ ví dụ: alertnotify=echo %%s | mail -s "WORX Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Worx Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại Worx Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Charity Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Charity Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

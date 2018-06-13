@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CHARITY
+Comment=CHARITY P2P Cryptocurrency
+Exec=charity-qt %u
+Terminal=false
+Type=Application
+Icon=charity128
+MimeType=x-scheme-handler/charity;
+Categories=Office;Finance;
+Name[en_US]=charity-qt.desktop.desktop.desktop

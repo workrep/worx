@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2018-@COPYRIGHT_YEAR@ The Worx Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2018-@COPYRIGHT_YEAR@ The Charity Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Worx-Qt</string>
+  <string>Charity-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.worx.Worx-Qt</string>
+  <string>io.charity.Charity-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.worx.WorxPayment</string>
+      <string>io.charity.CharityPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>worx</string>
+        <string>charity</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.worx.paymentrequest</string>
+      <string>io.charity.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Worx payment request</string>
+      <string>Charity payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-worx-payment-request</string>
+        <string>application/x-charity-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>worxpaymentrequest</string>
+          <string>charitypaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.worx.paymentrequest</string>
+        <string>io.charity.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

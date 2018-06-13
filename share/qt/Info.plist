@@ -17,22 +17,22 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>1.1.0, Copyright © 2009-2018 The Bitcoin Core developers, 2014-2018 The Dash and PIVX Core Developers, 2018-2018 The Worx Core developers</string>
+  <string>2.0.0, Copyright © 2009-2017 The Bitcoin Core developers, 2014-2017 The Dash and PIVX Core Developers, 2018 The Charity Core developers</string>
 
   <key>CFBundleShortVersionString</key>
-  <string>1.1.0</string>
+  <string>2.0.0</string>
 
   <key>CFBundleVersion</key>
-  <string>1.1.0</string>
+  <string>2.0.0</string>
 
   <key>CFBundleSignature</key>
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Worx-Qt</string>
+  <string>Charity-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.worx.Worx-Qt</string>
+  <string>io.charity.Charity-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.worx.WorxPayment</string>
+      <string>io.charity.CharityPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>worx</string>
+        <string>charity</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.worx.paymentrequest</string>
+      <string>io.charity.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Worx payment request</string>
+      <string>Charity payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-worx-payment-request</string>
+        <string>application/x-charity-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>worxpaymentrequest</string>
+          <string>charitypaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.worx.paymentrequest</string>
+        <string>io.charity.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

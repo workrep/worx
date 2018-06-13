@@ -1,4 +1,4 @@
-qt/qt_libbitcoinqt_a-qrc_worx.o: qt/qrc_worx.cpp \
+qt/qt_libbitcoinqt_a-qrc_charity.o: qt/qrc_charity.cpp \
  /usr/include/stdc-predef.h
 
 /usr/include/stdc-predef.h:

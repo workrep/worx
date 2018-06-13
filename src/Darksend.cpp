@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2018 The Worx developers
+// Copyright (c) 2018 The Charity developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
@@ -39,7 +39,7 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN DARKSEND MAGIC - WORX **********
+/* *** BEGIN DARKSEND MAGIC - CHARITY **********
     Copyright (c) 2014-2015, Dash Developers
         eduffield - evan@dashpay.io
         udjinm6   - udjinm6@dashpay.io
@@ -779,9 +779,9 @@ void CDarksendPool::ChargeRandomFees()
 
                 Being that Darksend has "no fees" we need to have some kind of cost associated
                 with using it to stop abuse. Otherwise it could serve as an attack vector and
-                allow endless transaction that would bloat WORX and make it unusable. To
+                allow endless transaction that would bloat CHARITY and make it unusable. To
                 stop these kinds of attacks 1 in 10 successful transactions are charged. This
-                adds up to a cost of 0.001 WORX per transaction on average.
+                adds up to a cost of 0.001 CHARITY per transaction on average.
             */
             if (r <= 10) {
                 LogPrintf("CDarksendPool::ChargeRandomFees -- charging random fees. %u\n", i);
@@ -1434,7 +1434,7 @@ bool CDarksendPool::DoAutomaticDenominating(bool fDryRun)
         // should have some additional amount for them
         nLowestDenom += DARKSEND_COLLATERAL * 4;
 
-    CAmount nBalanceNeedsAnonymized = nAnonymizeWORXAmount * COIN - pwalletMain->GetAnonymizedBalance();
+    CAmount nBalanceNeedsAnonymized = nAnonymizeCHARITYAmount * COIN - pwalletMain->GetAnonymizedBalance();
 
     // if balanceNeedsAnonymized is more than pool max, take the pool max
     if (nBalanceNeedsAnonymized > DARKSEND_POOL_MAX) nBalanceNeedsAnonymized = DARKSEND_POOL_MAX;
@@ -1917,10 +1917,10 @@ void CDarksendPool::GetDenominationsToString(int nDenom, std::string& strDenom)
 {
     // Function returns as follows:
     //
-    // bit 0 - 100WORX+1 ( bit on if present )
-    // bit 1 - 10WORX+1
-    // bit 2 - 1WORX+1
-    // bit 3 - .1WORX+1
+    // bit 0 - 100CHARITY+1 ( bit on if present )
+    // bit 1 - 10CHARITY+1
+    // bit 2 - 1CHARITY+1
+    // bit 3 - .1CHARITY+1
     // bit 3 - non-denom
 
 
@@ -1990,10 +1990,10 @@ int CDarksendPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSingl
 
     // Function returns as follows:
     //
-    // bit 0 - 100WORX+1 ( bit on if present )
-    // bit 1 - 10WORX+1
-    // bit 2 - 1WORX+1
-    // bit 3 - .1WORX+1
+    // bit 0 - 100CHARITY+1 ( bit on if present )
+    // bit 1 - 10CHARITY+1
+    // bit 2 - 1CHARITY+1
+    // bit 3 - .1CHARITY+1
 
     return denom;
 }
@@ -2286,7 +2286,7 @@ void ThreadCheckDarKsendPool()
     if (fLiteMode) return; //disable all Darksend/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("worx-Darksend");
+    RenameThread("charity-Darksend");
 
     unsigned int c = 0;
 

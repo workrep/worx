@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * WORX RPC command dispatcher.
+ * CHARITY RPC command dispatcher.
  */
 class CRPCTable
 {

@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2018 The Worx developers
+// Copyright (c) 2018 The Charity developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "Worx cannot be compiled without assertions."
+#error "Charity cannot be compiled without assertions."
 #endif
 
 /**
@@ -96,7 +96,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Worx Signed Message:\n";
+const string strMessageMagic = "Charity Signed Message:\n";
 
 // Internal stuff
 namespace
@@ -1632,17 +1632,17 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight >= 28801 && nHeight < 57600) {
         nSubsidy = 8 * COIN;
     } else if (nHeight >= 57601 && nHeight < 86400) {
-        nSubsidy = 8 * COIN;
+        nSubsidy = 12 * COIN;
     } else if (nHeight >= 86401 && nHeight < 115200) {
-        nSubsidy = 8 * COIN;
+        nSubsidy = 16 * COIN;
     } else if (nHeight >= 115201 && nHeight < 144000) {
-        nSubsidy = 8 * COIN;
+        nSubsidy = 20 * COIN;
     } else if (nHeight >= 144001 && nHeight < 172800) {
-        nSubsidy = 8 * COIN;
+        nSubsidy = 24 * COIN;
     } else if (nHeight >= 172801 && nHeight < 201600) {
-        nSubsidy = 8 * COIN;
+        nSubsidy = 28 * COIN;
     } else {
-        nSubsidy = 8 * COIN;
+        nSubsidy = 4 * COIN;
     }
     return nSubsidy;
 }
@@ -2043,7 +2043,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("worx-scriptch");
+    RenameThread("charity-scriptch");
     scriptcheckqueue.Thread();
 }
 

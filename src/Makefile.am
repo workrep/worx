@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += worxd
+  bin_PROGRAMS += charityd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += worx-cli worx-tx
+  bin_PROGRAMS += charity-cli charity-tx
 endif
 
 .PHONY: FORCE
-# worx core #
+# charity core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between worxd and worx-qt
+# server: shared between charityd and charity-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(BOOST_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between worxd and worx-qt, but only linked
+# wallet: shared between charityd and charity-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between worxd, and worx-qt and non-server tools
+# common: shared between charityd, and charity-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between worx-cli and worx-qt
+# cli: shared between charity-cli and charity-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-worxd_LDADD = \
+charityd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ worxd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-worxd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+charityd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-worxd_LDADD += libbitcoin_wallet.a
+charityd_LDADD += libbitcoin_wallet.a
 endif
-worxd_SOURCES = worxd.cpp
+charityd_SOURCES = charityd.cpp
 #
 
 if TARGET_WINDOWS
-worxd_SOURCES += worxd-res.rc
+charityd_SOURCES += charityd-res.rc
 endif
 
-worxd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-worxd_CPPFLAGS = $(BITCOIN_INCLUDES)
-worxd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+charityd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+charityd_CPPFLAGS = $(BITCOIN_INCLUDES)
+charityd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# worx-cli binary #
-worx_cli_LDADD = \
+# charity-cli binary #
+charity_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-worx_cli_SOURCES = \
-  worx-cli.cpp
+charity_cli_SOURCES = \
+  charity-cli.cpp
 
-worx_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+charity_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# worx-tx binary #
-worx_tx_LDADD = \
+# charity-tx binary #
+charity_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ worx_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-worx_tx_SOURCES = worx-tx.cpp
-worx_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+charity_tx_SOURCES = charity-tx.cpp
+charity_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-worx_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+charity_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-worx_cli_SOURCES += worx-cli-res.rc
+charity_cli_SOURCES += charity-cli-res.rc
 endif
-worx_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+charity_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

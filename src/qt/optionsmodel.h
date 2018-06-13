@@ -44,7 +44,7 @@ public:
         DatabaseCache,       // int
         SpendZeroConfChange, // bool
         DarksendRounds,   // int
-        AnonymizeWORXAmount, //int
+        AnonymizeCHARITYAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         OptionIDRowCount,
@@ -90,7 +90,7 @@ private:
 signals:
     void displayUnitChanged(int unit);
     void DarksendRoundsChanged(int);
-    void anonymizeWORXAmountChanged(int);
+    void anonymizeCHARITYAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 

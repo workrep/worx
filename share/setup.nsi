@@ -1,34 +1,34 @@
-Name "Worx Core (32-bit)"
+Name "Charity Core (-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.1.0
-!define COMPANY "Worx Core project"
-!define URL http://bit.worxs/
+!define VERSION 2.0.0
+!define COMPANY "Charity Core project"
+!define URL http://bit.charitys/
 
 # MUI Symbol Definitions
-!define MUI_ICON "/e/development/WORX/worx/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/e/development/WORX/worx/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/root/CHARITY/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/CHARITY/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/e/development/WORX/worx/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/root/CHARITY/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Worx Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\worx-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Charity Core"
+!define MUI_FINISHPAGE_RUN $INSTDIR\charity-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/e/development/WORX/worx/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/CHARITY/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
 !include Sections.nsh
 !include MUI2.nsh
-!if "32" == "64"
+!if "" == "64"
 !include x64.nsh
 !endif
 
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /e/development/WORX/worx/worx-${VERSION}-win32-setup.exe
-!if "32" == "64"
-InstallDir $PROGRAMFILES64\WORX
+OutFile /root/CHARITY/charity-${VERSION}-win-setup.exe
+!if "" == "64"
+InstallDir $PROGRAMFILES64\CHARITY
 !else
-InstallDir $PROGRAMFILES\WORX
+InstallDir $PROGRAMFILES\CHARITY
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion ${VERSION}.0
-VIAddVersionKey ProductName "Worx Core"
+VIProductVersion ${VERSION}.3
+VIAddVersionKey ProductName "Charity Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,19 +73,19 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /e/development/WORX/worx/release/worx-qt.exe
-    File /oname=COPYING.txt /e/development/WORX/worx/COPYING
-    File /oname=readme.txt /e/development/WORX/worx/doc/README_windows.txt
+    File /root/CHARITY/release/charity-qt.exe
+    File /oname=COPYING.txt /root/CHARITY/COPYING
+    File /oname=readme.txt /root/CHARITY/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /e/development/WORX/worx/release/worxd.exe
-    File /e/development/WORX/worx/release/worx-cli.exe
+    File /root/CHARITY/release/charityd.exe
+    File /root/CHARITY/release/charity-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /e/development/WORX/worx/doc\*.*
+    File /r /root/CHARITY/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-worx executable and locales:
-    Delete /REBOOTOK $INSTDIR\worx.exe
+    # Remove old wxwidgets-based-charity executable and locales:
+    Delete /REBOOTOK $INSTDIR\charity.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -95,7 +95,7 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\worx-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\charity-qt.exe
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "worx" "URL Protocol" ""
-    WriteRegStr HKCR "worx" "" "URL:WORX"
-    WriteRegStr HKCR "worx\DefaultIcon" "" $INSTDIR\worx-qt.exe
-    WriteRegStr HKCR "worx\shell\open\command" "" '"$INSTDIR\worx-qt.exe" "%1"'
+    WriteRegStr HKCR "charity" "URL Protocol" ""
+    WriteRegStr HKCR "charity" "" "URL:CHARITY"
+    WriteRegStr HKCR "charity\DefaultIcon" "" $INSTDIR\charity-qt.exe
+    WriteRegStr HKCR "charity\shell\open\command" "" '"$INSTDIR\charity-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -127,7 +127,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\worx-qt.exe
+    Delete /REBOOTOK $INSTDIR\charity-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\WORX.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\CHARITY.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "worx"
+    DeleteRegKey HKCR "charity"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0
@@ -160,7 +160,7 @@ SectionEnd
 # Installer functions
 Function .onInit
     InitPluginsDir
-!if "32" == "64"
+!if "" == "64"
     ${If} ${RunningX64}
       ; disable registry redirection (enable access to 64-bit portion of registry)
       SetRegView 64

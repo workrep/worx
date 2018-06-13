@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2018 The Worx developers
+// Copyright (c) 2018 The Charity developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/worx-config.h"
+#include "config/charity-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::WORX);
+        settings.setValue("nDisplayUnit", BitcoinUnits::CHARITY);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
 
-    if (!settings.contains("nAnonymizeWORXAmount"))
-        settings.setValue("nAnonymizeWORXAmount", 1000);
+    if (!settings.contains("nAnonymizeCHARITYAmount"))
+        settings.setValue("nAnonymizeCHARITYAmount", 1000);
 
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    nAnonymizeWORXAmount = settings.value("nAnonymizeWORXAmount").toLongLong();
+    nAnonymizeCHARITYAmount = settings.value("nAnonymizeCHARITYAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-Darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeWORXAmount"))
-        SoftSetArg("-anonymizeworxamount", settings.value("nAnonymizeWORXAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeCHARITYAmount"))
+        SoftSetArg("-anonymizecharityamount", settings.value("nAnonymizeCHARITYAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in worx.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in charity.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeWORXAmount:
-            return QVariant(nAnonymizeWORXAmount);
+        case AnonymizeCHARITYAmount:
+            return QVariant(nAnonymizeCHARITYAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit DarksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeWORXAmount:
-            nAnonymizeWORXAmount = value.toInt();
-            settings.setValue("nAnonymizeWORXAmount", nAnonymizeWORXAmount);
-            emit anonymizeWORXAmountChanged(nAnonymizeWORXAmount);
+        case AnonymizeCHARITYAmount:
+            nAnonymizeCHARITYAmount = value.toInt();
+            settings.setValue("nAnonymizeCHARITYAmount", nAnonymizeCHARITYAmount);
+            emit anonymizeCHARITYAmountChanged(nAnonymizeCHARITYAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

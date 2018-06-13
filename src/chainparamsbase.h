@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between worx-cli and worxd)
- * of a given instance of the WORX system.
+ * CBaseChainParams defines the base parameters (shared between charity-cli and charityd)
+ * of a given instance of the CHARITY system.
  */
 class CBaseChainParams
 {

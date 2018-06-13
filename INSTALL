@@ -1,4 +1,4 @@
-Building WORX
+Building CHARITY
 
 Use the autogen script to prepare the build environment.
 
@@ -8,6 +8,6 @@ Use the autogen script to prepare the build environment.
 
 Always verify the signatures and checksums.
 
-See doc/build-*.md for instructions on building worxd,
+See doc/build-*.md for instructions on building charityd,
 the intended-for-services, no-graphical-interface, reference
-implementation of WORX.
+implementation of CHARITY.

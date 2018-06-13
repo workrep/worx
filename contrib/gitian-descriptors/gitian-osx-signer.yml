@@ -1,5 +1,5 @@
 ---
-name: "worx-dmg-signer"
+name: "charity-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/WORXCOIN/WORX.SIGS.git"
+- "url": "https://github.com/CHARITYCOIN/CHARITY.SIGS.git"
   "dir": "signature"
 files:
-- "worx-osx-unsigned.tar.gz"
+- "charity-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,11 +27,11 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=worx-osx-unsigned.tar.gz
-  SIGNED=worx-osx-signed.dmg
+  UNSIGNED=charity-osx-unsigned.tar.gz
+  SIGNED=charity-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "WORX-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "CHARITY-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

@@ -1,13 +1,13 @@
-Worx Core
+Charity Core
 =====================
 
 Setup
 ---------------------
-[Worx Core](http://digiwage.org/wallet) is the original Worx client and it builds the backbone of the network. However, it downloads and stores the entire history of Worx transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Charity Core](http://digiwage.org/wallet) is the original Charity client and it builds the backbone of the network. However, it downloads and stores the entire history of Charity transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Worx on your native platform.
+The following are some helpful notes on how to run Charity on your native platform.
 
 ### Unix
 
@@ -22,18 +22,18 @@ Unpack the files into a directory, and then run digiwage-qt.exe.
 
 ### OSX
 
-Drag Worx-Qt to your applications folder, and then run Worx-Qt.
+Drag Charity-Qt to your applications folder, and then run Charity-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Worx Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Charity Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Worx Forum](http://forum.digiwage.org/).
-* Join one of our Slack groups [Worx Slack Groups](https://digiwage.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Charity Forum](http://forum.digiwage.org/).
+* Join one of our Slack groups [Charity Slack Groups](https://digiwage.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build Worx on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Charity on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Worx on your native platform. 
 
 Development
 ---------------------
-The Worx repo's [root README](https://github.com/digiwage/digiwage/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Charity repo's [root README](https://github.com/digiwage/digiwage/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Worx repo's [root README](https://github.com/digiwage/digiwage/blob/master/R
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Worx](http://forum.digiwage.org/) forum.
-* Join the [Worx-Dev](https://digiwage-dev.slack.com/) Slack group ([Sign-Up](https://digiwage-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Charity](http://forum.digiwage.org/) forum.
+* Join the [Charity-Dev](https://digiwage-dev.slack.com/) Slack group ([Sign-Up](https://digiwage-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

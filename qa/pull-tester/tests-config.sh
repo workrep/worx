@@ -3,14 +3,14 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-BUILDDIR="/e/development/WORX/worx"
-EXEEXT=".exe"
+BUILDDIR="/root/CHARITY"
+EXEEXT=""
 
 # These will turn into comments if they were disabled when configuring.
 ENABLE_WALLET=1
 ENABLE_UTILS=1
 ENABLE_BITCOIND=1
 
-REAL_BITCOIND="$BUILDDIR/src/worxd${EXEEXT}"
-REAL_BITCOINCLI="$BUILDDIR/src/worx-cli${EXEEXT}"
+REAL_BITCOIND="$BUILDDIR/src/charityd${EXEEXT}"
+REAL_BITCOINCLI="$BUILDDIR/src/charity-cli${EXEEXT}"
 

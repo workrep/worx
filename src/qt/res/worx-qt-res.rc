@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Worx"
-            VALUE "FileDescription",    "Worx Core (OSS GUI client for Worx)"
+            VALUE "CompanyName",        "Charity"
+            VALUE "FileDescription",    "Charity Core (OSS GUI client for Charity)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "worx-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "worx-qt.exe"
-            VALUE "ProductName",        "Worx Core"
+            VALUE "ProductName",        "Charity Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -1,0 +1,26 @@
+# /etc/conf.d/charityd: config file for /etc/init.d/charityd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/charity/charity.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/charityd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/charityd.pid"
+
+# Where to write charityd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/charityd"
+
+# User and group to own charityd process
+#BITCOIND_USER="charity"
+#BITCOIND_GROUP="charity"
+
+# Path to charityd executable
+#BITCOIND_BIN="/usr/bin/charityd"
+
+# Nice value to run charityd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
